@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav ul, nav li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: #39aae1;
+    display: block;
+}
+nav .active, nav a:hover{
+    background-color: #39aee1;
+    color:white;
+}
+
+#banner{
+    background-image: url('../images/img1.jpeg');
+    height: 770px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.banner_headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_options{
+    height: 210px;
+    display: flex;
+}
+
+.banner_headline h1{
+    color:#FFFF;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px 5px #5555;
+    max-width: 350px;
+}
+
+.banner_headline h2{
+    color:#FFF;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px 0px #5555;
+    margin-top:30px;
+}
+
+.banner1,.banner2,.banner3{
+    color:#FFFF;
+    padding: 20px;
+    flex:1;
+    font-size: 30;
+}
+
+.banner1{
+    background-color: #0077c7dc;
+}
+
+.banner2{
+    background-color: #3553d8e7;
+}
+
+.banner3{
+    background-color: #001ec7d2;
+}
+
+.banner_title{
+    font-size: 21px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.banner_desc{
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.banner_options a{
+    border: 1px #39aee1;
+    text-decoration: none;
+    color: #FFF;
+    padding: 5px;
+    font-size: 20;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_text{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    width: 50px;
+    height: 5px;
+    background-color: #39aae1;
+    margin-top: 10px;
+}
+
+#rodape{
+    display: flex;
+    justify-content: center;
+    color: #5c5c5c;
+    height: 40px;
+}
+
+@media (max-width: 1000px){
+    
+    .banner_headline h1{
+    font-size: 60px;
+    padding: 20px;
+    }
+}
+
+    .banner_headline h2{
+        padding: 20px;
+        font-size: 17px;
+    }
+
+    .geral{
+        margin-top: 200px;
+    }
